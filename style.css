@@ -1,0 +1,486 @@
+body{
+    background-image:url(IMAGES/bg.webp);
+    background-size:100% 650px;
+    background-attachment: fixed;
+    padding:0;
+    margin:0;
+}
+nav{
+    width:100%;
+    height:260px;
+    background-color:rgba(0,0,0,0.8);
+    float:left;
+    box-sizing:border-box;
+    padding:30px;
+
+}
+#welcome{
+    color:white;
+    text-align:center;
+    font-size:80px;
+    padding:0;
+    margin:0;
+}
+#menu{
+    width:750px;
+    height:70px;
+    box-sizing:border-box;
+    margin-top:10px;
+}
+#nav-item{
+ width:20%;
+ height:70px;
+ border-width:2px;
+ border-style:solid;
+ border-color:white;
+ box-sizing:border-box;
+ text-align:center;
+}
+#a{
+    color:white;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:20px;
+}
+#home-section{
+    width:600px;
+    height:407px;
+    float:right;
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.8);
+    clip-path: polygon(160px 0, 100% 0, 100% 100%, 0 100%);
+}
+#logo{
+    width:180px;
+    height:180px;
+    box-sizing:border-box;
+    border-width:5px;
+    border-style:solid;
+    border-color:white;
+    margin-left:150px;
+    margin-top:90px;
+}
+#logo-text{
+    padding:0;
+    margin:0;
+    font-family: verdana;
+    color:white;
+    font-size:160px;
+    margin-top:-20px;
+}
+#domain{
+    color:white;
+    font-family:verdana;
+    font-size:40px;
+    padding:0;
+    margin:0;
+    text-align:center;
+    margin-left:150px;
+    
+}
+/* Home page coding Ending*/
+
+/* starting Login page coding*/
+#domain_name{
+    padding:0;
+    margin:0;
+    color:white;
+    text-align:center;
+    font-size:80px;
+    font-family:sans-serif;
+
+}
+#domain_menu{
+    width:750px;
+    height:70px;
+    box-sizing:border-box;
+    margin-top:10px;
+}
+#domain_nav{
+    width:150px;
+    height:70px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    text-align:center;
+    box-sizing:border-box;
+
+}
+#domain_a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family:sans-serif;
+}
+#domain_section{
+    width:600px;
+    height:407px;
+    float:right;
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.8);
+    clip-path: polygon(160px 0, 100% 0, 100% 100%, 0 100%);
+    padding:60px;
+}
+#login_fieldset{
+    width:350px;
+    height:250px;
+    border-width:3px;
+    border-style:solid;
+    border-color:white;
+    margin-left:120px;
+    margin-top:-20px;
+    padding:20px;
+}
+legend{
+    font-family:century gothic;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+#login_form{
+    font-family:century gothic;
+    color:white;
+    font-size:22px;
+}
+#user_name{
+    width:100%;
+    height:30px;
+    background-color:transparent;
+    border:none;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    margin-top:10px;
+    margin-bottom:20px;
+    color:white;
+    font-size:17px;
+}
+ #password{
+    width:100%;
+    height:30px;
+    background-color:transparent;
+    border:none;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    margin-top:10px;
+    margin-bottom:20px;
+    color:white;
+    font-size:17px;
+ }
+ #login{
+    width:35%;
+    height:30px;
+    float:right;
+    background-color:inherit;
+    border:none;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    color:white;
+    font-family:century gothic;
+    font-size:18px;
+ }
+ /* login page end*/
+
+/*start contact coding*/
+#contact_heading{
+    color:white;
+    font-size:80px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family:sans-serif;
+}
+#contact_menu{
+    width:750px;
+    height:70px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+#contact_item{
+     width:150px;
+     height:70px;
+     border-width:2px;
+    border-style:solid;
+    border-color:white;
+    box-sizing:border-box;
+    text-align:center;
+}
+#contact_a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family:sans-serif;
+}
+#contact_section{
+    width:600px;
+    height:407px;
+    float:right;
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.8);
+    clip-path: polygon(160px 0, 100% 0, 100% 100%, 0 100%);
+}
+#contact_fieldset{
+    width:350px;
+    height:250px;
+    border-width:3px;
+    border-style:solid;
+    border-color:white;
+    margin-left:180px;
+    margin-top:40px;
+    padding:20px;
+}
+#contact_address{
+    color:white;
+    font-size:18px;
+    font-style:normal;
+    font-family:century gothic;
+    line-height:50px;
+}
+/* contact page ending*/
+
+/*starting  products page coding*/
+#products_name{
+    font-size:80px;
+    font-family:sans-serif;
+    color:white;
+    text-align:center;
+    padding:0;
+    margin:0;
+}
+#products-menu{
+   width:750px;
+   height:70px;
+   margin-top:10px;
+   box-sizing:border-box;
+}
+#p-menu-item{
+     width:150px;
+     height:70px;
+     border-width:2px;
+   border-style:solid;
+   border-color:white;
+   font-size:20px;
+   font-family:sans-serif;
+   text-align:center;
+   box-sizing:border-box;
+}
+
+#pro_a{
+  color:white;
+  text-decoration:none;
+  
+}
+#product_section{
+    width:100%;
+    height:2880px;
+    
+    float:left;
+    box-sizing:border-box;
+}
+#brand{
+    width:100%;
+    height:380px;
+    background-color: rgba(255,255,255,0.8);
+    float:left;
+    box-sizing:border-box;
+}
+#brand_heading{
+    text-align:center;
+    font-family:century gothic;
+    font-size:40px;
+}
+#brand_pic{
+    width:200px;
+    height:80px;
+    float:left;
+    border-width:3px;
+    border-style:solid;
+    border-color:black;
+    box-sizing:border-box;
+    margin:26px;
+    margin-top:10px;
+    background-color:white;
+}
+#pictures{
+    width:190px;
+    height:75px;    
+}
+#search_box{
+    width:60%;
+    height:50px;
+    box-sizing:border-box;
+    float:left;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:20px;
+    border:none;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    font-size:18px;
+    padding:10px;
+    background-image:url(IMAGES/search\ 2.png);
+    background-size:40px 40px;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+#biore_products_pic{
+    width:100%;
+    height:500px;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.8);
+}
+#biore{
+    text-align:center;
+    color:white;
+    font-family:century gothic;
+    font-size:35px;
+}
+#biore_products{
+    width:250px;
+    height:320px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    float:left;
+    box-sizing:border-box;
+    margin:32px;
+}
+#dove_products_pic{
+    width:100%;
+    height:500px;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgba(29,70,40,0.8);
+}
+#dove{
+    color:white;;
+    font-size:35px;
+    font-family:century gothic;
+    text-align:center;
+}
+#dove_products{
+    width:250px;
+    height:320px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    box-sizing:border-box;
+    float:left;
+    margin:32px;
+}
+#sephora_products_pic{
+    width:100%;
+    height:500px;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.8);
+}
+#sephora{
+    color:white;
+    font-size:35px;
+    text-align:center;
+    font-family:century gothic;
+}
+#sephora_products{
+    width:250px;
+    height:320px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    box-sizing:border-box;
+    float:left;
+    margin:32px;
+}
+#nivea_products_pic{
+    width:100%;
+    height:500px;
+    background-color:rgba(29,70,40,0.8);
+    float:left;
+    box-sizing:border-box;
+}
+#nivea{
+    color:white;
+    font-size:35px;
+    font-family:century gothic;
+    text-align:center;
+}
+#nivea_products{
+      width:250px;
+      height:320px;
+      float:left;
+      border-width:2px;
+      border-style:solid;
+      border-color:white;
+      box-sizing:border-box;
+      margin:32px;
+}
+#paula_skincare_pic{
+    width:100%;
+    height:500px;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.8);
+}
+#paula{
+    color:white;
+    font-size:35px;
+    font-family:century gothic;
+    text-align:center;
+}
+#paula_choice{
+    width:250px;
+    height:320px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    float:left;
+    box-sizing:border-box;
+    margin:32px;
+}
+
+#footer{
+    width:100%;
+    height:60px;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgba(192,192,192,0.8);
+    text-align:center;
+}
+#footer_ad{
+    color:black;
+    font-family:century gothic;
+    font-size:25px;
+    margin-top:14px;
+}
+#pic_resize{
+    width:100%;
+    height:250px;
+}
+#p_name{
+    color:white;
+    text-align:center;
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
+    margin-top:7px;
+    font-size:18px;
+}
+#p_price{
+    margin:0;
+    padding:0;
+    color:white;
+    margin:7px;
+    font-family:sans-serif;
+}
+button{
+    float:right;
+    margin-top:-30px;
+    width:100px;
+    height: 25px;
+    margin-right:10px;
+    background-color:#00CC99;
+}
